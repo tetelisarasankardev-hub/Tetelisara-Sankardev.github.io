@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+
+        #about {
+            padding: 80px 0;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        #about h2 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #667eea;
+            display: inline-block;
+            padding-bottom: 10px;
+            opacity: 0;
+            transform: translateY(-50px);
+            transition: all 1s ease;
+        }
+
+        #about p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+
+        .highlight {
+            color: #667eea;
+            font-weight: 700;
+        }
+
+        .animate {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+
+        @media (max-width: 768px) {
+            #about h2 {
+                font-size: 2.5em;
+            }
+            #about p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="about">
+        <div class="container">
+            <h2 id="about-title">About Us</h2>
+            <p id="about-para1">Sankardev Vidya Niketan is an educational institution functioning under the aegis of Vidya Bharati Akhil Bharatiya Shiksha Sansthan, one of the largest educational organizations in India. The school aims to provide quality education by integrating modern academic learning with Bharatiya cultural values, moral education, discipline, and character building.
+					Name of the School:Tetelisara Sankardev Vidya Niketan.</p>
+            <p id="about-para2">The institution focuses on the holistic development of students by promoting academic excellence, physical fitness, social responsibility, and ethical values, thereby nurturing responsible and capable citizens for the nation.</p>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const title = document.getElementById('about-title');
+            const para1 = document.getElementById('about-para1');
+            const para2 = document.getElementById('about-para2');
+
+            // Function to add animation class with delay
+            function animateElement(element, delay) {
+                setTimeout(() => {
+                    element.classList.add('animate');
+                }, delay);
+            }
+
+            // Animate elements sequentially
+            animateElement(title, 500);
+            animateElement(para1, 1000);
+            animateElement(para2, 1500);
+        });
+    </script>
+</body>
+</html>

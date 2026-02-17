@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Sankardev Vidya Niketan Tetelisara | Value-Based Education in Nagaon</title>
+    <meta name="title" content="Sankardev Vidya Niketan Tetelisara">
+    <meta name="description" content="Sankardev Vidya Niketan, Tetelisara (Nagaon) is a premier educational institution under Vidya Bharati, focusing on holistic development and cultural heritage.">
+    <meta name="keywords" content="SVN Tetelisara, Sankardev Vidya Niketan, School in Nagaon, Assamese Medium School, Vidya Bharati schools Assam">
+    <meta name="theme-color" content="#f4a261">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://svntetelisara.com/">
+    <meta property="og:title" content="Sankardev Vidya Niketan Tetelisara">
+    <meta property="og:description" content="Empowering generations through value-based education and cultural roots.">
+    <meta property="og:image" content="logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Top Info Bar -->
+    <aside class="top-bar">
+        <div class="container flex-header">
+            <div class="top-contact">
+                <a href="tel:+919876543210"><i class="fas fa-phone"></i> +91 98765 43210</a>
+                <a href="mailto:tetelisarasankardev@gmail.com"><i class="fas fa-envelope"></i> tetelisarasankardev@gmail.com</a>
+            </div>
+            <div class="top-social">
+                <a href="https://facebook.com/tetelisarasankardev/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <header class="main-header">
+        <nav class="container nav-wrapper" aria-label="Main Navigation">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="SVN Logo" width="60" height="60">
+                <div class="logo-text">
+                    <span class="site-title">Sankardev Vidya Niketan</span>
+                    <small>Tetelisara, Nagaon (Assam)</small>
+                </div>
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="facility.html">Facilities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="admissions.html" class="nav-cta">Admissions 2024</a></li>
+            </ul>
+
+            <button class="hamburger" aria-label="Toggle navigation" aria-controls="nav-links">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- News Ticker -->
+        <section class="ticker-container" aria-label="Latest Updates">
+            <div class="ticker-label"><i class="fas fa-calendar-alt"></i> -Latest Updates</div>
+            <div class="ticker-window">
+                <div class="ticker-track">
+                    <span class="ticker-item">New Admissions Open for Session 2024-25</span>
+                    <span class="ticker-item">Annual Sports Meet starts from Oct 15th</span>
+                    <span class="ticker-item">Parent-Teacher Meeting this Sunday</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Slider -->
+		<section class="hero" id="home">
+			<div class="hero-slider">
+				<!-- Slide 1 -->
+				<article class="slide active">
+					<div class="slide-bg" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero1.jpg');"></div>
+					<div class="container hero-container">
+						<div class="hero-glass-card">
+							<div class="reveal-box">
+								<span class="badge-refined">Welcome to SVN Tetelisara</span>
+							</div>
+							<div class="reveal-box">
+								<h1>Empowering <span class="highlight">Future</span> Leaders</h1>
+							</div>
+							<div class="reveal-box">
+								<p>Join a community dedicated to academic excellence and cultural roots.</p>
+							</div>
+							<div class="hero-btns reveal-box">
+								<a href="#" class="btn-primary">Get Started</a>
+								<a href="#" class="btn-video"><i class="fas fa-play"></i> Watch Tour</a>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<!-- Slide 2 -->
+				<article class="slide">
+					<div class="slide-bg" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hero2.jpg');"></div>
+					<div class="container hero-container">
+						<div class="hero-glass-card">
+							<div class="reveal-box"><span class="badge-refined">Our Heritage</span></div>
+							<div class="reveal-box"><h1>Rooted in <span class="highlight">Tradition</span></h1></div>
+							<div class="reveal-box"><p>Experience value-based education following the Vidya Bharati curriculum.</p></div>
+							<div class="hero-btns reveal-box">
+								<a href="#" class="btn-primary">Learn History</a>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<!-- Navigation Dots -->
+			<div class="hero-nav">
+				<button class="hero-dot active" onclick="jumpToSlide(0)"></button>
+				<button class="hero-dot" onclick="jumpToSlide(1)"></button>
+			</div>
+		</section>
+
+        <!-- Leadership -->
+        <section class="messages-section container">
+            <div class="section-header">
+                <h2>Our Leadership</h2>
+                <div class="divider-center"></div>
+            </div>
+
+            <div class="messages-grid">
+                <article class="message-card">
+                    <div class="dignitary-header">
+                        <img src="principal.jpg" alt="Principal" class="small-photo" loading="lazy" width="80" height="80">
+                        <div class="dignitary-meta">
+                            <h3>Sri [Name]</h3>
+                            <span>Principal</span>
+                        </div>
+                    </div>
+                    <blockquote>"Education is the tool that breaks the chains of ignorance."</blockquote>
+                </article>
+
+                <article class="message-card">
+                    <div class="dignitary-header">
+                        <img src="president.jpg" alt="President" class="small-photo" loading="lazy" width="80" height="80">
+                        <div class="dignitary-meta">
+                            <h3>Sri [Name]</h3>
+                            <span>President, SMC</span>
+                        </div>
+                    </div>
+                    <blockquote>"We strive to create a synthesis of modern science and Indian culture."</blockquote>
+                </article>
+				<article class="message-card">
+                    <div class="dignitary-header">
+                        <img src="president.jpg" alt="President" class="small-photo" loading="lazy" width="80" height="80">
+                        <div class="dignitary-meta">
+                            <h3>Sri [Name]</h3>
+                            <span>President, SMC</span>
+                        </div>
+                    </div>
+                    <blockquote>"We strive to create a synthesis of modern science and Indian culture."</blockquote>
+                </article>
+            </div>
+        </section>
+
+        <!-- Programs -->
+        <section class="programs-section" id="programs">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Special Programs</h2>
+                    <p>Diverse activities designed for holistic development</p>
+                </div>
+                
+                <div class="slider-wrapper">
+                    <div class="program-grid"> <!-- Changed from slider to grid for better responsiveness if no JS -->
+                        <article class="program-card">
+                            <img src="prog1.jpg" alt="Vedic Mathematics" loading="lazy" width="400" height="250">
+                            <div class="card-body">
+                                <h3>Vedic Mathematics</h3>
+                                <p>Ancient techniques for modern calculations.</p>
+                            </div>
+                        </article>
+                        <article class="program-card">
+                            <img src="prog2.jpg" alt="Yoga Class" loading="lazy" width="400" height="250">
+                            <div class="card-body">
+                                <h3>Physical Excellence</h3>
+                                <p>Daily Yoga and Pranayama sessions for mental and physical health.</p>
+                            </div>
+                        </article>
+                        <article class="program-card">
+                            <img src="prog3.jpg" alt="Cultural Program" loading="lazy" width="400" height="250">
+                            <div class="card-body">
+                                <h3>Cultural Heritage</h3>
+                                <p>Learning traditional music, dance, and Assamese art forms.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campus Gallery -->
+        <section class="gallery-section" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Campus Gallery</h2>
+                    <div class="divider-center"></div>
+                </div>
+				
+				<div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <img src="gallery1.jpg" alt="School Campus" loading="lazy" width="300" height="200">
+                        <figcaption class="gallery-overlay">Main Building</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="gallery2.jpg" alt="Library" loading="lazy" width="300" height="200">
+                        <figcaption class="gallery-overlay">Knowledge Hub</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="gallery3.jpg" alt="Science Lab" loading="lazy" width="300" height="200">
+                        <figcaption class="gallery-overlay">Innovation Lab</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>SVN Tetelisara</h3>
+                <p>Nurturing future leaders since 2002. An initiative of Vidya Bharati (Shishu Shiksha Samiti, Assam).</p>
+            </div>
+            <nav class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Academic Calendar</a></li>
+                    <li><a href="#">School Uniform</a></li>
+                    <li><a href="#">Fee Structure</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <address>
+                    P.O. Tetelisara, Dist: Nagaon<br>
+                    Assam, Pin: 782426<br>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2024 Sankardev Vidya Niketan Tetelisara. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
